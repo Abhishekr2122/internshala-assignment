@@ -1,0 +1,11 @@
+.App {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+#section-1 {
+  height: 100vw;
+  width: 100vw;
+}
