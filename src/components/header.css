@@ -1,1 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80px;
+  /* border: 1px solid blue; */
+  background-color: #151218;
+}
 
+.logo-container {
+  height: 50%;
+  width: 12%;
+  border: 1px solid red;
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+}

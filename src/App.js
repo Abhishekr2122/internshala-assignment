@@ -5,10 +5,10 @@ import Login from "./pages/Login";
 function App() {
   return (
     <div className="App">
-      <Login />
-      {/* <section id="section-1">
-       
-      </section> */}
+      {/* <Login /> */}
+      <section id="section-1">
+        <Header />
+      </section>
     </div>
   );
 }

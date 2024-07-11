@@ -1,7 +1,11 @@
+import "./header.css";
+
 export default function Header() {
   return (
     <header className="header">
-      <p>hello there</p>
+      <div className="logo-container">
+        <img className="logo" src="./website-logo.png" alt="not-found" />
+      </div>
     </header>
   );
 }
