@@ -1,6 +1,7 @@
 import "./app.css";
 import Header from "./components/Header";
-import Login from "./pages/Login";
+import Main from "./components/Main";
+// import Login from "./pages/Login";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       {/* <Login /> */}
       <section id="section-1">
         <Header />
+        <Main />
       </section>
     </div>
   );
