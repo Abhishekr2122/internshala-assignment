@@ -1,6 +1,6 @@
 import "./navbar.css";
 
-export default function Navbar() {
+export default function Navbar({ setSelectedNavItem }) {
   const navItems = [
     "Product",
     "Pricing",
@@ -13,7 +13,17 @@ export default function Navbar() {
     <nav className="nav-container">
       <ul className="nav">
         {navItems.map(function (citem, i) {
-          return <li className="nav-items">{citem}</li>;
+          return (
+            <li
+              className="nav-items"
+              onMouseEnter={function () {
+                setSelectedNavItem(citem);
+              }}
+              key={i}
+            >
+              {citem}
+            </li>
+          );
         })}
       </ul>
     </nav>
