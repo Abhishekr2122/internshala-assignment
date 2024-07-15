@@ -13,10 +13,10 @@ function App() {
   return (
     <div className="App">
       {/* <Login /> */}
-      {/* <section id="section-1">
+      <section id="section-1">
         <Header setSelectedNavItem={setSelectedNavItem} />
-        <Main />
-      </section> */}
+        {/* <Main /> */}
+      </section>
 
       <Product />
     </div>

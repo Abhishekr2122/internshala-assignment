@@ -14,13 +14,13 @@ export default function Product() {
     <div className="product">
       <div className="product-content-container">
         <div className="product-header-content">
-          <IoHome />
-          <h5>Home Product</h5>
+          <IoHome className="product-header-logo" />
+          <h5 className="product-header">Product Home</h5>
         </div>
         <div className="product-main-content">
           <div className="product-main-card">
-            <GoWorkflow />
-            <div>
+            <GoWorkflow className="product-main-card-logo" />
+            <div className="product-main-card-content-container">
               <h5 className="product-main-card-heading">
                 HELIX: Work Flow Automation
               </h5>
@@ -31,8 +31,8 @@ export default function Product() {
             </div>
           </div>
           <div className="product-main-card">
-            <IoIosSearch />
-            <div>
+            <IoIosSearch className="product-main-card-logo" />
+            <div className="product-main-card-content-container">
               <h5 className="product-main-card-heading">
                 Accurate demand forecasting
               </h5>
@@ -42,8 +42,8 @@ export default function Product() {
             </div>
           </div>
           <div className="product-main-card">
-            <FaBoxOpen />
-            <div>
+            <FaBoxOpen className="product-main-card-logo" />
+            <div className="product-main-card-content-container">
               <h5 className="product-main-card-heading">
                 Automated purchase planning
               </h5>
@@ -53,8 +53,8 @@ export default function Product() {
             </div>
           </div>
           <div className="product-main-card">
-            <PiNetwork />
-            <div>
+            <PiNetwork className="product-main-card-logo" />
+            <div className="product-main-card-content-container">
               <h5 className="product-main-card-heading">
                 Automated Distribution planning
               </h5>
@@ -65,8 +65,8 @@ export default function Product() {
             </div>
           </div>
           <div className="product-main-card">
-            <GrSettingsOption />
-            <div>
+            <GrSettingsOption className="product-main-card-logo" />
+            <div className="product-main-card-content-container">
               <h5 className="product-main-card-heading">Integrations</h5>
               <p className="product-main-card-para">
                 Yes, Crest works with your tech and ops stack!
@@ -74,17 +74,21 @@ export default function Product() {
             </div>
           </div>
           <div className="product-main-card">
-            <LuLayoutDashboard />
-            <div>
+            <LuLayoutDashboard className="product-main-card-logo" />
+            <div className="product-main-card-content-container">
               <h5 className="product-main-card-heading">Custom dashboards</h5>
-              <p>Build and visualise data your way</p>
+              <p className="product-main-card-para">
+                Build and visualise data your way
+              </p>
             </div>
           </div>
           <div className="product-main-card">
-            <TfiThought />
-            <div>
+            <TfiThought className="product-main-card-logo" />
+            <div className="product-main-card-content-container">
               <h5 className="product-main-card-heading">Consensus planning</h5>
-              <p>Collaborate and take better decisions faster</p>
+              <p className="product-main-card-para">
+                Collaborate and take better decisions faster
+              </p>
             </div>
           </div>
         </div>
