@@ -1,17 +1,26 @@
 .nav {
   display: flex;
-  gap: 30px;
+  gap: 3vw;
   color: white;
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .nav-items {
   cursor: pointer;
   transition-duration: 0.5s;
+  /* font-size: 1.2vw; */
   font-size: 17.3px;
 }
 
 .nav-items:hover {
   color: #fc907e;
   transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav {
+    display: none;
+  }
 }
