@@ -24,7 +24,9 @@
 .product-main-content {
   /* border: 1px solid black; */
   height: auto;
-  padding: 2.5vw;
+  /* padding: 2.5vw; */
+  padding-left: 2.5vw;
+  padding-top: 30px;
   /* display: flex;
   flex-wrap: wrap; */
 
@@ -42,8 +44,9 @@
   padding: 8px;
   border-radius: 4px;
   cursor: pointer;
-  width: 250px;
+  width: 270px;
   transition-duration: 1s;
+  box-sizing: border-box;
 }
 
 .product-main-card:hover {
@@ -62,6 +65,7 @@
 .product-main-card-para {
   margin: 0px;
   font-size: 15px;
+  /* border: 1px solid yellow; */
 }
 
 .product-main-card-content-container {
@@ -77,6 +81,7 @@
   height: 20px;
   width: 20px;
   color: blueviolet;
+  /* border: 1px solid green; */
 }
 
 .product-header-logo {

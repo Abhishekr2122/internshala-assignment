@@ -1,0 +1,36 @@
+.industry-list {
+  border: 1px solid red;
+  list-style: none;
+  box-sizing: border-box;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: auto;
+  width: fit-content;
+}
+
+.industry-list-item {
+  /* border: 1px solid blue; */
+  padding: 12px;
+  border-radius: 2px;
+  cursor: pointer;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 17px;
+  font-weight: 400;
+  transition-duration: 1s;
+}
+
+.list-icon {
+  color: blueviolet;
+  height: 22px;
+  width: 22px;
+}
+
+.industry-list-item:hover {
+  background-color: #f2f2f2;
+  transition-duration: 1s;
+}

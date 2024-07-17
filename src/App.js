@@ -6,6 +6,8 @@ import NavbarModal from "./ui/NavbarModal";
 import Product from "./ui/Product";
 // import Login from "./pages/Login";
 
+import Industry from "./ui/Industry";
+
 function App() {
   const [selectedNavItem, setSelectedNavItem] = useState("");
   console.log(selectedNavItem);
@@ -18,7 +20,8 @@ function App() {
         <Main />
       </section>
 
-      <Product />
+      {/* <Product /> */}
+      <Industry />
     </div>
   );
 }
