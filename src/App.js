@@ -17,11 +17,11 @@ function App() {
       {/* <Login /> */}
       <section id="section-1">
         <Header setSelectedNavItem={setSelectedNavItem} />
-        <Main />
+        {/* <Main /> */}
       </section>
 
       {/* <Product /> */}
-      <Industry />
+      {/* <Industry /> */}
     </div>
   );
 }

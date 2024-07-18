@@ -1,5 +1,5 @@
 .industry-list {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   list-style: none;
   box-sizing: border-box;
   padding: 14px;
@@ -12,8 +12,8 @@
 
 .industry-list-item {
   /* border: 1px solid blue; */
-  padding: 12px;
-  border-radius: 2px;
+  padding: 14.5px;
+  border-radius: 3px;
   cursor: pointer;
   color: black;
   display: flex;
