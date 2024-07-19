@@ -7,6 +7,7 @@ import Product from "./ui/Product";
 // import Login from "./pages/Login";
 
 import Industry from "./ui/Industry";
+import Modal from "./ui/Modal";
 
 function App() {
   const [selectedNavItem, setSelectedNavItem] = useState("");
@@ -17,6 +18,7 @@ function App() {
       {/* <Login /> */}
       <section id="section-1">
         <Header setSelectedNavItem={setSelectedNavItem} />
+        <Modal selectedNavItem={selectedNavItem} />
         {/* <Main /> */}
       </section>
 

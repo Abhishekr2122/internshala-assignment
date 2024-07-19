@@ -14,7 +14,15 @@ export default function Header({ setSelectedNavItem }) {
         <button className="header-login-btn">Talk to us</button>
       </div>
       <div className="open-close-btn-container">
-        <IoLockClosed style={{ color: "white" }} />
+        <IoLockClosed
+          style={{
+            color: "white",
+            cursor: "pointer",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        />
       </div>
     </header>
   );

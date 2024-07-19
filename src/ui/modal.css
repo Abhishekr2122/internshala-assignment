@@ -1,0 +1,10 @@
+.productmodal {
+  position: fixed;
+  top: calc(100vh - 70px);
+}
+
+.industrymodal {
+  position: fixed;
+  top: calc(100vh - 70px);
+  left: 50%;
+}
