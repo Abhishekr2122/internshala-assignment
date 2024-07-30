@@ -1,10 +1,7 @@
 .productmodal {
-  position: fixed;
-  top: calc(100vh - 70px);
-}
-
-.industrymodal {
-  position: fixed;
-  top: calc(100vh - 70px);
-  left: 50%;
+  position: absolute;
+  top: 70px;
+  /* border: 1px solid red; */
+  width: 100%;
+  background-color: white;
 }

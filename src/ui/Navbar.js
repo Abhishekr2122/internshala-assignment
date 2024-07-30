@@ -1,6 +1,10 @@
+import { useRef } from "react";
 import "./navbar.css";
 
-export default function Navbar({ setSelectedNavItem }) {
+export default function Navbar({
+  setSelectedNavItem,
+  setIndustryListDistance,
+}) {
   const navItems = [
     "Product",
     "Pricing",
@@ -9,15 +13,20 @@ export default function Navbar({ setSelectedNavItem }) {
     "About",
     "Blog",
   ];
+
+  const listItemDistance = useRef(null);
   return (
     <nav className="nav-container">
-      <ul className="nav">
+      <ul className="nav" ref={listItemDistance}>
         {navItems.map(function (citem, i) {
           return (
             <li
               className="nav-items"
-              onMouseEnter={function () {
+              onMouseEnter={function (e) {
                 setSelectedNavItem(citem);
+                setIndustryListDistance(
+                  listItemDistance.current.getBoundingClientRect().left
+                );
               }}
               key={i}
             >

@@ -2,12 +2,15 @@
   /* border: 1px solid red; */
   list-style: none;
   box-sizing: border-box;
-  padding: 14px;
+  padding: 12px;
   display: flex;
   flex-direction: column;
   gap: 12px;
   height: auto;
   width: fit-content;
+  background-color: white;
+  border-radius: 4px;
+  margin: 0px;
 }
 
 .industry-list-item {
@@ -15,19 +18,20 @@
   padding: 14.5px;
   border-radius: 3px;
   cursor: pointer;
+  /* color: rgb(251, 99, 44); */
   color: black;
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
   transition-duration: 0.5s;
 }
 
 .list-icon {
   color: blueviolet;
-  height: 22px;
-  width: 22px;
+  height: 20px;
+  width: 20px;
 }
 
 .industry-list-item:hover {

@@ -1,0 +1,57 @@
+.responsivemodal {
+  /* border: 1px solid red; */
+  color: black;
+  width: 99.8%;
+  height: calc(100vh - 80px);
+  position: absolute;
+  top: 80px;
+  z-index: 1;
+  background-color: white;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+
+.list-container {
+  /* border: 1px solid blue; */
+  height: 100%;
+  width: 100%;
+}
+
+.list {
+  /* border: 2px solid yellow; */
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  padding-left: 4vw;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.list-item {
+  /* border: 1px solid green; */
+  cursor: pointer;
+  font-weight: 500;
+  width: fit-content;
+}
+
+.list-btn-container {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.list-btn {
+  padding: 4px;
+  font-weight: 600;
+  background-color: transparent;
+  border-style: none;
+  color: blueviolet;
+}
